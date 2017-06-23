@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//ftl/control.ftl=UTF-8
+encoding//ftl/dao.ftl=UTF-8
+encoding//ftl/service.ftl=UTF-8
+encoding//ftl/serviceImpl.ftl=UTF-8
+encoding//ftl/sql.ftl=UTF-8
+encoding//src/com/hsun/mango/Activator.java=UTF-8
+encoding//src/com/hsun/mango/actions/MangoGAction.java=UTF-8
+encoding//src/com/hsun/mango/actions/SourceGenerator.java=UTF-8
+encoding/<project>=UTF-8
