@@ -1,1 +1,0 @@
-# mango-generator-eclipse
