@@ -2,7 +2,9 @@ package com.hsun.mango.actions;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -71,6 +73,11 @@ public class MangoGAction implements IObjectActionDelegate {
 					map.put("bean", bean);
 					map.put("table", "t" + c2_(bean));
 					map.put("basePackage", basePackage);
+					
+					SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:ss:mm");
+			        String date = sdf.format(new Date());
+			        
+			        map.put("date", date);
 					
 					List<MangoField> mFields = new ArrayList<>();
 					
